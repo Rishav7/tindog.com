@@ -1,0 +1,161 @@
+#title {
+  background-color: #76ead7;
+  color: white;
+}
+
+#features {
+  padding: 7% 15% 10%;
+  background: #fff;
+  position: relative;
+}
+
+.iphone-Image {
+  width: 250px;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3rem;
+  color: #000;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icons {
+  color: #76ead7;
+  margin-bottom: 1rem;
+}
+
+.icons:hover {
+  color: #76ead7;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-family: "Ubuntu"
+}
+
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+#testimonials {
+  padding: 3% 7%;
+  background: #086972;
+  text-align: center;
+}
+
+#press {
+  background: #086972;
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.dog-profile {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.Sheshank-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+em {
+  color: #fff;
+}
+
+.logo {
+  width: 10%;
+  margin: 5% 5% 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#cta {
+  padding: 10% 20%;
+  background-color: #76ead7;
+  text-align: center;
+}
+
+#footer {
+  background: #fff;
+  text-align: center;
+  padding: 5%;
+  color: #76ead7;
+}
+
+.footer-link {
+  color: #000;
+  margin: 1rem;
+  padding-bottom: 4rem;
+  padding-top: 50px;
+  margin-top: 20px;
+}
+
+.footer-link:hover {
+  color: #76ead7;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone-Image {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
